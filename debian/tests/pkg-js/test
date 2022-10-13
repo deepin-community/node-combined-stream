@@ -1,0 +1,5 @@
+set -e
+for file in test/integration/*; do
+	echo $file
+	nodejs $file
+done
