@@ -1,3 +1,23 @@
+node-combined-stream (1.0.8+~1.0.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Wed, 22 Dec 2021 16:08:40 +0100
+
 node-combined-stream (1.0.8-1) unstable; urgency=medium
 
   * Team upload
